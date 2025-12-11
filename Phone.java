@@ -27,6 +27,6 @@ public class Phone {
 	
 	//Métodes
 	public void call(String numTel) {
-		System.out.println("S’està trucant al número "+numTel);
+		System.out.println("The number " + numTel + " is being called");
 	}
 }

@@ -7,10 +7,11 @@ public class Smartphone extends Phone implements Camera, Clock {
 	}
 	
 	public void photographing() {
-		System.out.println("S’està fent una foto"); 
+		System.out.println("It's taking a photo");
 	}
-	
+
+    @Override
 	public void alarm() {
-		System.out.println("Està sonant l’alarma");
+		System.out.println("The alarm is ringing");
 	}
 }
