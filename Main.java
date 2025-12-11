@@ -4,8 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		//Des del main() de l’aplicació, crea un objecte Smartphone i crida als mètodes anteriors.
-		
+        //From Main's app, I create a new object Smartphone and call all methods
 		Smartphone iphoneDani = new Smartphone("apple", "iphone");
 		
 		iphoneDani.call("650332211");
